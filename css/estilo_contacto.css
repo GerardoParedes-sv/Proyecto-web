@@ -266,45 +266,71 @@ button:hover {
 /*movil*/
 @media screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-  .contenedor {
-    flex-direction: column;
-    align-items: center;
+    overflow-x: hidden; 
   }
 
-  .logo {
-    display: flex;
-    margin: 0px;
-  }
-
-  .menu {
-    width: 85%;
-  }
-  .menu ul {
-    font-size: 12px;
-    gap: 30px;
-  }
-
-  .info,
-  .formulario {
-    width: 90%;
-  }
-
-  ul {
-    gap: 20px;
-    flex-wrap: wrap;
-  }
   .banner-contacto {
-    width: 90%;
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    flex-direction: column;
   }
+
   .banner-contacto h1 {
-    font-size: 35px;
+    font-size: 28px;
+    width: 80%;
+    margin: 0 auto 10px auto;
+  }
+
+  .banner-contacto p {
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
   }
 
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .info,
+  .formulario,
+  .horarios,
+  .mapa {
+    width: 95%; 
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .mapa iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .menu {
+    width: 100%;
+    padding: 1px;
+  }
+
+  .menu ul {
+    font-size: 12px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .redes {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+  }
 }
+
 
 @media (min-width: 576px) {
   .encabezado {
