@@ -221,7 +221,7 @@ header.fixed-top {
   ===========================*/
 
 .pedido{
-    background-image: url(../images/Productos/Fondo-HazTuPedido.jpeg);
+    background-image: url(../images/productos/Fondo-HazTuPedido.jpeg);
     min-width: 100%;
     background-size: cover;
     background-position: center;
@@ -402,7 +402,7 @@ header.fixed-top {
     }
 
     .pedir {
-        width: 100px;
+        width: 150px;
     }
 
     .contenido-producto{
@@ -462,7 +462,7 @@ header.fixed-top {
     }
 
     .pedir {
-        width: 85px;
+        width: 150px;
     }
 }  
 
