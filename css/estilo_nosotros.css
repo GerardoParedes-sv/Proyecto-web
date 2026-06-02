@@ -330,16 +330,8 @@ header.fixed-top {
     }
 
     .menu ul {
-        font-size: 14px;
-        gap: 35px;
-    }
-
-    .menu a {
-        font-size: 14px;
-    }
-
-    .pedir {
-        width: 100px;
+        font-size: 12px;
+        gap: 30px;
     }
 
     .contenido-nosotros {
@@ -406,11 +398,6 @@ header.fixed-top {
         font-size: 12px;
         gap: 30px;
     }
-
-    .menu a {
-        font-size: 12px;
-    }
-
 
     .valor {
         width: 100%;
