@@ -292,7 +292,9 @@ button:hover {
     gap: 20px;
     flex-wrap: wrap;
   }
-
+  .banner-contacto {
+    width: 100%;
+  }
   .banner-contacto h1 {
     font-size: 35px;
     text-align: center;
