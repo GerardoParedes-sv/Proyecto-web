@@ -265,6 +265,10 @@ button:hover {
 
 /*movil*/
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
   .contenedor {
     flex-direction: column;
     align-items: center;
@@ -276,7 +280,7 @@ button:hover {
   }
 
   .menu {
-    width: 100%;
+    width: 80%;
   }
   .menu ul {
     font-size: 12px;
@@ -293,7 +297,7 @@ button:hover {
     flex-wrap: wrap;
   }
   .banner-contacto {
-    width: 100%;
+    width: 50%;
   }
   .banner-contacto h1 {
     font-size: 35px;
