@@ -1,0 +1,321 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: rgb(248, 243, 248);
+}
+
+/* =========================
+   ENCABEZADO
+========================= */
+header.fixed-top {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.encabezado {
+  height: 50px;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  height: 60px;
+  border-radius: 40px;
+}
+
+/* =========================
+   MENÚ
+========================= */
+
+.menu {
+  background-image: url(../images/common/menu.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 11px;
+}
+
+.menu ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.493);
+}
+
+.menu a:hover {
+  color: rgb(233, 196, 106);
+  text-decoration: underline;
+}
+
+
+.banner-contacto {
+  background-image: url("https://i.ytimg.com/vi/DdzCT_oU0wQ/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+  margin-bottom: 20px;
+}
+
+.banner-contacto h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.banner-contacto p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.info,
+.formulario,
+.mapa {
+  background-color: white;
+  width: 420px;
+  border-radius: 10px;
+  border: 2px solid rgb(228, 228, 228);
+  padding: 25px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.horarios {
+  background-color: white;
+  height: 250px;
+  width: 420px;
+  border-radius: 10px;
+  border: 2px solid rgb(228, 228, 228);
+  padding: 25px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info h2,
+.formulario h2,
+.horarios h2,
+.mapa h2 {
+  color: rgb(7, 109, 24);
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: rgb(60, 60, 60);
+}
+
+.redes {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  background-color: rgb(7, 109, 24);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+  background-color: rgb(5, 82, 18);
+}
+
+/*===========================
+            SECCION FOOTER
+      ===========================*/
+.pie {
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-logo p {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.seccion-enlaces-rapidos h4,
+.seccion-informacion h4,
+.seccion-contactanos h4 {
+  color: black;
+  text-align: justify;
+}
+
+.pie img {
+  display: block;
+  width: 265px;
+  max-width: 90%;
+  height: auto;
+  margin: 5px 0 0 5px;
+  object-fit: contain;
+}
+
+.enlaces-rapidos ul,
+.informacion ul,
+.contactanos ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.enlaces-rapidos ul li,
+.informacion ul li,
+.contactanos ul li {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+.enlaces-rapidos ul li a,
+.informacion ul li a,
+.contactanos ul li a {
+  color: #7a7777;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.enlaces-rapidos ul li a:hover,
+.informacion ul li a:hover,
+.contactanos ul li a:hover {
+  color: #ff7a00;
+  text-decoration: underline;
+}
+
+/*.seccion-enlaces-rapidos,
+.seccion-informacion,
+.seccion-contactanos{
+    border: 1px solid brown;
+}*/
+
+
+/*movil*/
+@media screen and (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    margin: 0px;
+  }
+
+  .menu ul {
+    font-size: 12px;
+    gap: 30px;
+  }
+
+  .info,
+  .formulario {
+    width: 90%;
+  }
+
+  ul {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .banner-contacto h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .encabezado {
+    justify-content: flex-start;
+  }
+
+  .logo {
+    display: flex;
+    margin: 0px;
+  }
+
+  .menu ul {
+    font-size: 15px;
+    gap: 30px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .menu ul {
+    font-size: 16px;
+    gap: 70px;
+  }
+}
